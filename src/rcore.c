@@ -7183,3 +7183,8 @@ const char *TextFormat(const char *text, ...)
     return currentBuffer;
 }
 #endif // !SUPPORT_MODULE_RTEXT
+
+GLFWwindow* GetGlfwWindowHandle()
+{
+    return CORE.Window.handle;
+}
